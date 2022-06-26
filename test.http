@@ -17,4 +17,15 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/62b5ac2bc80a667f83badf86
+DELETE http://localhost:3000/62b5b10a1453ca17ea48104c
+
+###
+
+PATCH http://localhost:3000/62b5b10a1453ca17ea48104c
+Content-Type: application/json
+
+{
+    "title": "Eragon 2",
+    "note": 4,
+    "image": "url_link_modified"
+}
