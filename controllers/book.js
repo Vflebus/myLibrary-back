@@ -2,6 +2,7 @@ const Book = require('../models/book')
 
 const bookController = {
     getall: async (req, res) => {
+        console.log('getall');
         try {
             const books = await Book.find();
             res.json(books);
