@@ -1,31 +1,32 @@
-GET http://localhost:3000/
+GET http://localhost:4000/
 
 ###
 
-GET http://localhost:3000/62b5937d4a7d5230f9b26570
+GET http://localhost:4000/62b5937d4a7d5230f9b26570
 
 ###
 
-POST http://localhost:3000/
+POST http://localhost:4000/
 Content-Type: application/json
 
 {
-    "title": "Eragon 2",
-    "note": 4,
-    "image": "url_link"
+    "title": "Le Retour du Roi",
+    "note": 4.5,
+    "image": "https://images.noosfere.org/couv300/p/pp2659-1987.jpg",
+    "summary": "Avec Le retour du roi s'achèvent dans un fracas d'Apocalypse les derniers combats de la Guerre de I'Anneau. Déjà l'embrasement crépusculaire de la montagne Oradruir marque pour le peuple des Hobbits l'aube d'une ère nouvelle. Mais le récit de J.R.R. Tolkien prend fin avec l'épopée légendaire de Frodon et de Gandalf le Gris.\nEn créant en plein XXe siècle cette mythologie, Tolkien renoue aussi avec les plus anciennes de nos traditions littéraires, chansons de geste de l'Occident chrétien, sagas scandinaves, thèmes souvent millénaires des récits folkloriques transmis d'âge en âge. Par un exceptionnel tour de force, l'auteur de cette immense fresque a non seulement su leur redonner vie mais créer à son tour un monde mythologique original et cohérent, d'une audience universelle.\nLa trilogie du Seigneur des Anneaux (tome I : La communauté de l'anneau, tome Il : Les deux tours, tome III : Le retour du roi) constitue désormais l'un des grands classiques de la littérature d'imagination.",
+    "author": "J. R. R. TOLKIEN",
+    "dateOfCreation": 1955
 }
 
 ###
 
-DELETE http://localhost:3000/62b5b10a1453ca17ea48104c
+DELETE http://localhost:4000/62b5b10a1453ca17ea48104c
 
 ###
 
-PATCH http://localhost:3000/62b5b10a1453ca17ea48104c
+PATCH http://localhost:4000/62b8db172a586dda7e695d62
 Content-Type: application/json
 
 {
-    "title": "Eragon 2",
-    "note": 4,
-    "image": "url_link_modified"
+    "title": "La Communauté de l'Anneau"
 }

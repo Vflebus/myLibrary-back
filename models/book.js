@@ -18,7 +18,7 @@ const bookSchema = new mongoose.Schema({
         required: false
     },
     dateOfCreation: {
-        type: Date,
+        type: Number,
         required: false,
     },
     note: {
